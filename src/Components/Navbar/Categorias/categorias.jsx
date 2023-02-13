@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 export const Categorias = () => {
     return (
         <>
@@ -8,14 +8,14 @@ export const Categorias = () => {
                 Tienda
             </a>
         <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Vinos y espumosos</a></li>
-            <li><a className="dropdown-item" href="#">Productos ibéricos</a></li>
+            <li><Link className="dropdown-item" to={'/category/1'}>Productos ibéricos</Link></li>
+            <li><Link className="dropdown-item" to={'/category/2'}>Vinos</Link></li>
             {/* <li><hr className="dropdown-divider" /></li> */}
-            <li><a className="dropdown-item" href="#">Caprichos</a></li>
+            <li><Link className="dropdown-item" to={'/category/3'}>Caprichos</Link></li>
         </ul>
         </li>
         </>
     );
 }
 
-// export default Categorias;
+

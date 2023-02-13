@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+        "idCategoria":1,
+        "idSubCategoria":1,
+        "nombreSubCategoria":"Iberico de Bellota",
+        "nombre": "Paleta de bellota ibérica 100% ",
+        "marca": "Lazo",
+        "cantidad": "4,5-5 kg/pieza",
+        "precio": 168.75,
+        "stock":30,
+        "img": ""
+    },
+    {
+        "id":2,
+        "idCategoria":1,
+        "idSubCategoria":1,
+        "nombreSubCategoria":"Iberico de Bellota",
+        "nombre": "Jamón de bellota ibérico 50%",
+        "marca": "Iberian Market",
+        "cantidad": "8-8,5 kg/pieza",
+        "precio": 312,
+        "stock":0,
+        "img": ""
+    },
+    {
+        "id":3,
+        "idCategoria":1,
+        "idSubCategoria":2,
+        "nombreSubCategoria":"IBÉRICO CEBO CAMPO",
+        "nombre": "Jamón de cebo campo 50%",
+        "marca": "Iberian Market",
+        "cantidad": "41 sobres de 80 g",
+        "precio": 262,
+        "stock":10,
+        "img": ""
+    },
+    {
+        "id":4,
+        "idCategoria":2,
+        "idSubCategoria":3,
+        "nombreSubCategoria":"Vino Tinto",
+        "nombre": "Monomio",
+        "marca": "Iberian Market",
+        "cantidad": "Caja de 6 botellas",
+        "precio": 46,
+        "stock":100,
+        "uva": "100% Tempranillo",
+        "img": ""
+       
+    }
+]

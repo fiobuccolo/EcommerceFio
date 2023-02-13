@@ -1,16 +1,14 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 export const Sections = () => {
     return (
         <>
-        
         <li className="navbar-nav">
-            <a className="nav-link" aria-current="page" href="#">Home</a>
-            <a className="nav-link" href="#">Sobre nosotros</a>
-            <a className="nav-link" href="#">Contacto</a>
+            <Link className='nav-link' to={'/'}>Home</Link>
+            <Link className='nav-link' to={'/'}>Sobre nosotros</Link>
+            <Link className='nav-link' to={'/'}>Contacto</Link>
+            
         </li>
     </>
     );
 }
-
-// export default Sections;

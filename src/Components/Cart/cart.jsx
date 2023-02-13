@@ -5,7 +5,7 @@ export const Cart = ({cantCart}) => {
        
             <button type="button" className='cart-icon' onClick="">
                <AiOutlineShoppingCart />
-                <span className='cart-item-qty'>1</span>
+                <span className='cart-item-qty'>{cantCart}</span>
             </button>
         
     );
