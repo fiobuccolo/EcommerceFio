@@ -14,10 +14,9 @@ export const ProductDetailContainer = () => {
        // espero y luego filtro para obtener el detalle de producto que quiero
         .then (prods => {
         const prod = prods.find(item => item.id === parseInt(id))
-        console.log (prods)
-        console.log(prod)
+       
         setProduct(prod)
-        console.log(`hola ${product}`)
+       
        })
     }, []);
     

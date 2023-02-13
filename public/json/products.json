@@ -2,6 +2,7 @@
     {
         "id":1,
         "idCategoria":1,
+        "Categoria":"Jamones y paletas Ibéricos",
         "idSubCategoria":1,
         "nombreSubCategoria":"Iberico de Bellota",
         "nombre": "Paleta de bellota ibérica 100% ",
@@ -14,6 +15,7 @@
     {
         "id":2,
         "idCategoria":1,
+        "Categoria":"Jamones y paletas Ibéricos",
         "idSubCategoria":1,
         "nombreSubCategoria":"Iberico de Bellota",
         "nombre": "Jamón de bellota ibérico 50%",
@@ -26,6 +28,7 @@
     {
         "id":3,
         "idCategoria":1,
+        "Categoria":"Jamones y paletas Ibéricos",
         "idSubCategoria":2,
         "nombreSubCategoria":"IBÉRICO CEBO CAMPO",
         "nombre": "Jamón de cebo campo 50%",
@@ -38,6 +41,7 @@
     {
         "id":4,
         "idCategoria":2,
+        "Categoria":"Vinos",
         "idSubCategoria":3,
         "nombreSubCategoria":"Vino Tinto",
         "nombre": "Monomio",

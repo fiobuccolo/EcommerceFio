@@ -1,10 +1,10 @@
 [
     {
         "id":1,
-        "nombreCategoria":"Jamones y paletas Ibéricos"
+        "nombre":"Jamones y paletas Ibéricos"
     },
     {
         "id":2,
-        "nombreCategoria":"Vinos"
+        "nombre":"Vinos"
     }
 ]

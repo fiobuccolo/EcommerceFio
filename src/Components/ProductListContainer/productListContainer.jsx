@@ -10,12 +10,13 @@ export const ProductListContainer = () => {
     const [productos,setProductos] = useState([])
     const {idCategory} = useParams()
     // use efect para funciones asincronas
+   console.log(idCategory)
     useEffect(() => {
-      if (idCategory){
+        if (idCategory){
         consultarBDD('../json/products.json')
             // Cada producto lo envie a itemLIst
         .then ( items =>{
-            const prods = items.filter(prod => prod.idCategoria === parseInt(idCategory))
+            const prods = items.filter(prod => prod.Categoria === idCategory)
             const products = ProductList({prods})
             setProductos(products)
         } )
