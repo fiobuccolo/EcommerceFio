@@ -5,7 +5,6 @@ export const CategoriesList = ({cats}) => {
     return (
         <div>
             {cats.map(item => <CategoriesCard category={item} key={item.id}/>)} 
-          
         </div>
     );
 }

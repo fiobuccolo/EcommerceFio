@@ -17,11 +17,10 @@ export const Counter = ({valInicial,stock}) => {
     // console.log(contador)
 
     return (    
-        <div>
-            
-            <button className='btn btn-dark' onClick={()=>sumar()}>+</button>
+        <div className='counter'>
+            <button className=' cardAdd' onClick={()=>restar()}>-</button> 
             {contador}
-            <button className='btn btn-dark' onClick={()=>restar()}>-</button> 
+            <button className='cardAdd' onClick={()=>sumar()}>+</button>
         </div>
     );
 }

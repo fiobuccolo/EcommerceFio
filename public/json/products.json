@@ -7,10 +7,14 @@
         "nombreSubCategoria":"Iberico de Bellota",
         "nombre": "Paleta de bellota ibérica 100% ",
         "marca": "Lazo",
+        "zona": "",
         "cantidad": "4,5-5 kg/pieza",
         "precio": 168.75,
         "stock":30,
-        "img": ""
+        "uva":"",
+        "img": "paleta-de-bellota-iberica-100-lazo.jpeg",
+        "descripcion": "La paleta de bellota ibérica se trata del producto de mayor calidad en su especie, el único que puede añadir a su nombre la denominación “pata negra”. Una pieza seleccionada exclusivamente por su calidad y pureza. Una pieza única y de gran calidad que se obtiene de la pata delantera de animales de raza ibérica, únicos en el mundo, criados en la dehesa. Alimentados exclusivamente de bellota, hierba y otros recursos naturales. Un producto excepcional.",
+        "NotasDeCata": ""
     },
     {
         "id":2,
@@ -20,10 +24,14 @@
         "nombreSubCategoria":"Iberico de Bellota",
         "nombre": "Jamón de bellota ibérico 50%",
         "marca": "Iberian Market",
+        "zona": "",
         "cantidad": "8-8,5 kg/pieza",
         "precio": 312,
         "stock":0,
-        "img": ""
+        "uva":"",
+        "img": "jamon-de-bellota-iberico-50-iberian-market-.jpeg",
+        "descripcion": "El jamón de bellota ibérico 50% Iberian Market procede de cerdos 50% ibéricos, criados en libertad y alimentados en la montanera a base de bellotas y hierbas, al menos durante los últimos 6 meses de vida. Son identificados con la brida roja.",
+        "NotasDeCata": ""
     },
     {
         "id":3,
@@ -33,10 +41,14 @@
         "nombreSubCategoria":"IBÉRICO CEBO CAMPO",
         "nombre": "Jamón de cebo campo 50%",
         "marca": "Iberian Market",
+        "zona": "",
         "cantidad": "41 sobres de 80 g",
         "precio": 262,
         "stock":10,
-        "img": ""
+        "uva":"",
+        "img": "jamon-de-cebo-campo-iberico-iberian-market-loncheado-a-mano-41-sobres-de-80-g-taquitos-huesos.jpeg",
+        "descripcion": "El Loncheado a mano de Jamón de Cebo Iberian Market se trata de un producto que procede del cerdo de raza ibérica, y tiene un sabor sin igual gracias a su crianza en libertad con una alimentación basada en recursos de la dehesa y complementada con cereales naturales. Si no sabes cortar jamón o te da pereza, no hay mejor opción que el Jamón loncheado, con sus taquitos y hueso para poder disfrutar de todas los beneficios que tiene este preciado producto de España.",
+        "NotasDeCata": ""
     },
     {
         "id":4,
@@ -45,12 +57,30 @@
         "idSubCategoria":3,
         "nombreSubCategoria":"Vino Tinto",
         "nombre": "Monomio",
-        "marca": "Iberian Market",
+        "zona": "Rioja",
         "cantidad": "Caja de 6 botellas",
         "precio": 46,
         "stock":100,
         "uva": "100% Tempranillo",
-        "img": ""
-       
+        "img": "Monomio.jpeg",
+        "descripcion": "Vino tinto Mabeluca Monomio joven DOCa Rioja caja de 6 botellas",
+        "NotasDeCata": "De color rojo violáceo vivo y brillante con irisaciones púrpura que denotan su juventud.De buen potencial aromático, rico en matices de frutas del bosque como mora, fresa, frambuesa, arándanos, intensos y sobresalientes. En boca, se presenta concentrado con buena carga frutal y estructurado. Tiene mucho volumen, inundando toda la boca y la sensación final es muy agradable. Es un vino redondo y sabroso, con un buen equilibrio entre grado alcohólico, acidez y estructura. Largo, y muy persistente, con recuerdo a frutos negros confitados."
+    },
+    {
+        "id":5,
+        "idCategoria":2,
+        "Categoria":"Vinos",
+        "idSubCategoria":3,
+        "nombreSubCategoria":"Vino Tinto",
+        "nombre": "Azabache",
+        "marca":"",
+        "zona": "Rioja",
+        "cantidad": "Caja de 6 botellas",
+        "precio": 38,
+        "stock":20,
+        "uva": "70% Tempranillo, 20% Garnacha, 10% Mazuelo",
+        "img": "azabache.jpeg",
+        "descripcion": "El vino Azabache tinto crianza DOP Rioja se elabora con uvas 70% Tempranillo, 20% Garnacha, 10% Mazuelo. La uva es recolectada en la segunda quincena de Septiembre y la primera de Octubre cuando la uva tiene su punto óptimo de maduración fenólica. Esta maduración se centra en la parte aromática del vino, nos indica que la uva es apta para comenzar el proceso de vinificación. Tiene un color rojo granate brillante, con un aroma a confitura de frutos rojos y negros y un gusto en boca sabroso de frutas rojas en confitura y mermelada  con notas tostadas a crema de café. No pierdas la oportunidad de probarlo y recuerda que puedes hacerte de nuestro club vip gratis y beneficiarte estos precios en el siguiente enlace.",
+        "NotasDeCata": ""
     }
 ]
