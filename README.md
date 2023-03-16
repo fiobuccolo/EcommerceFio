@@ -6,7 +6,7 @@ _Ecommerce de Fio aprendiendo react con coderhouse
 
 _Instalar react y las siguientes dependencias:
 
-npm i firebase react-router-dom react-toastify
+npm i firebase react-router-dom react-toastify react-icons
 
 ## Running
 
