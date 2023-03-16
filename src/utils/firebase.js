@@ -12,7 +12,11 @@ import { prettyDOM } from "@testing-library/react";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
+<<<<<<< HEAD
   apiKey: "AIzaSyArxtfvMWW7CSyeZbbTLSl5Z4kNwkzlKZU",
+=======
+  apiKey: AIzaSyArxtfvMWW7CSyeZbbTLSl5Z4kNwkzlKZU,
+>>>>>>> 0bd6496cbde213aa5ff0beddcd1a0aa16b5ff027
   authDomain: "ecommercefio.firebaseapp.com",
   projectId: "ecommercefio",
   storageBucket: "ecommercefio.appspot.com",
