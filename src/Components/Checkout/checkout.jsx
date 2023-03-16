@@ -30,6 +30,7 @@ export const Checkout = () => {
         // metodo que permite transformar un objeto iterable en un objeto simple
         const cliente = Object.fromEntries(data)
         console.log(cliente)
+        if (cliente.email == cliente.repeatEmail){
 
         const aux = [...cart]
         aux.forEach(prodCart => {
@@ -46,7 +47,9 @@ export const Checkout = () => {
 
         e.target.reset() // reseteo el formulario
         emptyCart() // vacio el carrito
-        navigate("/")
+        navigate("/")} else{
+            toast.error("los emails no coinciden")
+        }
         }
 
     return (
