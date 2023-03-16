@@ -5,7 +5,7 @@ The useState Hook can be used to keep track of strings,
 numbers, booleans, arrays, objects, and any combination of these!
 We could create multiple state Hooks to track individual values.*/
 
-export const Counter = ({valInicial,stock}) => {
+export const Counter = ({valInicial,stock,onAdd}) => {
    
    // const [variable,function that change state] = useState(default value)
     const [contador,setContador] = useState(valInicial)
@@ -21,6 +21,7 @@ export const Counter = ({valInicial,stock}) => {
             <button className=' cardAdd' onClick={()=>restar()}>-</button> 
             {contador}
             <button className='cardAdd' onClick={()=>sumar()}>+</button>
+            <button onClick={()=>{onAdd(contador)}}>Agregar al carrito2</button>
         </div>
     );
 }

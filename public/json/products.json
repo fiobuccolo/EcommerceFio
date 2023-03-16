@@ -79,7 +79,7 @@
         "precio": 38,
         "stock":20,
         "uva": "70% Tempranillo, 20% Garnacha, 10% Mazuelo",
-        "img": "azabache.jpeg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommercefio.appspot.com/o/azabache.jpeg?alt=media&token=4e538b6a-a1b4-40b3-aafc-a53104d65ad1",
         "descripcion": "El vino Azabache tinto crianza DOP Rioja se elabora con uvas 70% Tempranillo, 20% Garnacha, 10% Mazuelo. La uva es recolectada en la segunda quincena de Septiembre y la primera de Octubre cuando la uva tiene su punto óptimo de maduración fenólica. Esta maduración se centra en la parte aromática del vino, nos indica que la uva es apta para comenzar el proceso de vinificación. Tiene un color rojo granate brillante, con un aroma a confitura de frutos rojos y negros y un gusto en boca sabroso de frutas rojas en confitura y mermelada  con notas tostadas a crema de café. No pierdas la oportunidad de probarlo y recuerda que puedes hacerte de nuestro club vip gratis y beneficiarte estos precios en el siguiente enlace.",
         "NotasDeCata": ""
     }

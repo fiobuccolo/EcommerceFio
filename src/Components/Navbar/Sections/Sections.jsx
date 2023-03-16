@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-export const Sections = () => {
+export const Sections = React.memo(() => {
     return (
         <>
         <li className="navbar-nav">
@@ -11,4 +11,4 @@ export const Sections = () => {
         </li>
     </>
     );
-}
+})

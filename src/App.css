@@ -21,12 +21,13 @@ justify-content: space-between;
 align-items: center;
 padding: 8px 24px;
 gap: 255px;
+
 /* position: absolute; */
-height: 56px;
-margin-left: 58px;
-margin-right: 57px;
-margin-top: 32px;
-margin-bottom: 32px;
+min-height: 56px;
+margin-left: 0px;
+margin-right:0px;
+margin-top: 0px;
+margin-bottom: 24px;
 background: rgba(255, 255, 255, 0.95);
 /* With Blur */
 
@@ -34,7 +35,7 @@ box-shadow: 0px 12px 16px -4px rgba(12, 26, 36, 0.04);
 backdrop-filter: blur(13.6px);
 /* Note: backdrop-filter has minimal browser support */
 
-border-radius: 12px;
+border-radius: 0px 0px 12px 12px;
 }
 
 .nav-link{
@@ -277,4 +278,22 @@ align-items: center;
   /* position: absolute; */
   width: 1168px;
   height: 792px;
+}
+.contForm{
+  margin-top: 120px;
+}
+.cart{
+  margin-top: 140px;
+}
+.divButtons button {
+  margin: 4px;
+}
+
+.cartContainer{
+  margin-top: 140px;
+  margin-left: 26%;
+}
+
+.cardCart{
+ max-width: 640px;
 }

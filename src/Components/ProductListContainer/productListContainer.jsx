@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { consultarBDD } from '../../utils/funciones';
+//import { getProducts } from '../../utils/firebase';
 import { useEffect, useState } from 'react';
 import { ProductList } from '../ProductList/ProductList';
 import { useParams } from 'react-router-dom'; // consultar los parametos que vienen de la app
@@ -13,18 +14,22 @@ export const ProductListContainer = () => {
    console.log(idCategory)
     useEffect(() => {
         if (idCategory){
+            //tengo que cambiar  consultar bdd por getProducts()
         consultarBDD('../json/products.json')
             // Cada producto lo envie a itemLIst
         .then ( items =>{
-            const prods = items.filter(prod => prod.Categoria === idCategory)
-            const products = ProductList({prods})
+            
+            const prods = items.filter(prod=>prod.stock >0).filter(prod => prod.Categoria === idCategory)
+            const products = <ProductList prods={prods} plantilla="ProductCard"/>
             setProductos(products)
         } )
       }else{ 
+         //tengo que cambiar  consultar bdd por getProducts()
         consultarBDD('./json/products.json')
             // Cada producto lo envie a itemLIst
-        .then ( prods =>{
-            const products = ProductList({prods})
+        .then ( items =>{
+            const prods = items.filter(prod=>prod.stock >0)
+            const products = <ProductList prods={prods} plantilla="ProductCard"/>
             setProductos(products)
         })
             }

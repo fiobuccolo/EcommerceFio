@@ -3,7 +3,7 @@ import  {Link } from 'react-router-dom';
 import { CategoriesCard } from '../../CategoriesCard/categoriesCard';
 import { CategoriesListContainer } from '../../CategoriesListContainer/CategoriesListContainer';
 
-export const Categorias = (cat) => {
+export const Categorias = React.memo(() => {
 
     return (
         <>
@@ -12,6 +12,7 @@ export const Categorias = (cat) => {
                 Tienda
             </a>
         <ul className="dropdown-menu">
+            
             <CategoriesListContainer/>
              {/*<li><Link className="dropdown-item" to={`/category/${cat.name}`}>{`${cat.name} Productos ibéricos`}</Link></li>
             <li><Link className="dropdown-item" to={'/category/2'}>Vinos</Link></li>
@@ -23,5 +24,5 @@ export const Categorias = (cat) => {
         </>
     );
 }
-
+)
 
