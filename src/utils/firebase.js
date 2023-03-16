@@ -2,7 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import {getFirestore, collection,doc, addDoc, getDocs, getDoc, updateDoc,deleteDoc} from "firebase/firestore";
-import { prettyDOM } from "@testing-library/react";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 // getFirestore: consultar base de datos
@@ -12,17 +12,13 @@ import { prettyDOM } from "@testing-library/react";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-<<<<<<< HEAD
-  apiKey: "AIzaSyArxtfvMWW7CSyeZbbTLSl5Z4kNwkzlKZU",
-=======
-  apiKey: AIzaSyArxtfvMWW7CSyeZbbTLSl5Z4kNwkzlKZU,
->>>>>>> 0bd6496cbde213aa5ff0beddcd1a0aa16b5ff027
-  authDomain: "ecommercefio.firebaseapp.com",
-  projectId: "ecommercefio",
-  storageBucket: "ecommercefio.appspot.com",
-  messagingSenderId: "857405712270",
-  appId: "1:857405712270:web:33bbd98146f7c3a28566df",
-  measurementId: "G-3L2P5X5EZJ"
+    apiKey: "AIzaSyArxtfvMWW7CSyeZbbTLSl5Z4kNwkzlKZU",
+    authDomain: "ecommercefio.firebaseapp.com",
+    projectId: "ecommercefio",
+    storageBucket: "ecommercefio.appspot.com",
+    messagingSenderId: "857405712270",
+    appId: "1:857405712270:web:33bbd98146f7c3a28566df",
+    measurementId: "G-3L2P5X5EZJ"
 };
 
 // Initialize Firebase
