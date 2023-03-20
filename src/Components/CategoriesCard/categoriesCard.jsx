@@ -7,7 +7,7 @@ export const CategoriesCard = ({category}) => {
     return (
         <div>
             <li>
-                <Link className="dropdown-item" to={`/category/${category.nombre}`}>{`${category.nombre}`}</Link>
+                <Link className="dropdown-item" to={`/category/${category.name}`}>{`${category.name}`}</Link>
             </li>
         </div>
     );

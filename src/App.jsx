@@ -16,6 +16,7 @@ import { Cart } from './Components/Cart/cart';
 // firebase
 import { CargarBDD } from './utils/firebase';
 import { getProducts } from './utils/firebase';
+import { getCategories } from './utils/firebase';
 import { deleteProduct } from './utils/firebase';
 import { updateProduct } from './utils/firebase';
 
@@ -25,7 +26,8 @@ import { CartProvider } from './Context/CartContext';
 function App() {
   // Cuando quiera cargar los productos en la base de datos de firebase tengo que descomentar la linea de abajo. 
   //CargarBDD()
-  getProducts()
+  // getProducts()
+  getCategories()
   return (
     <BrowserRouter>
         <CartProvider>

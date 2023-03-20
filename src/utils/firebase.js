@@ -38,6 +38,18 @@ const db = getFirestore() // referencia a mi base de datos
 //     });
 // }
 
+export const getCategories = async () =>{
+    const categories = await getDocs(collection(db,"Categorias"))
+    console.log (categories)
+    // transformar en objetos simples
+    const category = categories.docs.map(cat =>{
+        return {...cat.data(),id:cat.id }
+     })
+    console.log (category)
+    return (category)
+}
+
+
 export const getProducts = async () =>{
     const products = await getDocs(collection(db,"products"))
     console.log (products)
