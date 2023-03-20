@@ -5,17 +5,18 @@ import { useState,useEffect } from 'react';
 import { consultarBDD } from '../../utils/funciones';
 import { ProductDetail } from '../ProductDetail/productDetail';
 import { useParams } from 'react-router-dom';
+import { getProduct} from '../../utils/firebase';
 export const ProductDetailContainer = () => {
    const [product, setProduct] = useState([])
    const {id} = useParams()
     useEffect(() => {
        //COnsulto a la base de datos para traer el listado de productos
        // tengo que cambiar consultar bdd por getproduct(id) y no haria falta el find... 
-       consultarBDD('../json/products.json')
-
+    //    consultarBDD('../json/products.json')
+    getProduct(id)
        // espero y luego filtro para obtener el detalle de producto que quiero
-        .then (prods => {
-        const prod = prods.find(item => item.id === parseInt(id))
+        .then (prod => {
+        // const prod = prods.find(item => item.id === parseInt(id))
        
         setProduct(prod)
        

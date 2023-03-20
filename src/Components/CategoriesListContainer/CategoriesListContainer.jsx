@@ -12,7 +12,8 @@ export const CategoriesListContainer = () => {
     const [categories,setCategories] = useState([])
     useEffect(() => {
         // consultarBDD('../json/categories.json')
-        getCategories().then ( cats=> {
+        getCategories().then ( 
+            cats=> {
             const categories = CategoriesList({cats})
             setCategories(categories)
         })

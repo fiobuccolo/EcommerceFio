@@ -19,37 +19,36 @@ export const Checkout = () => {
     const consultarForm = (e) => {
         // cancelo el comportamiento por defecto
         e.preventDefault()
-        console.log(datosForm)
+        // console.log(datosForm)
         // me devuelve el html de form 
         console.log(datosForm.current)
         // generar un objeto con cada uno de los datos del formulario -- Form data js
         // lo transformo en objeto iterable para consultar de forma mas optima sus valores
         const data = new FormData(datosForm.current)
-        console.log (data)
-        console.log (data.get("nombre"))
+        // console.log (data)
+        // console.log (data.get("nombre"))
         // metodo que permite transformar un objeto iterable en un objeto simple
         const cliente = Object.fromEntries(data)
         console.log(cliente)
-        if (cliente.email == cliente.repeatEmail){
-
-        const aux = [...cart]
-        aux.forEach(prodCart => {
+        if (cliente.email === cliente.repeatEmail){
+            const aux = [...cart]
+            aux.forEach(prodCart => {
             getProduct(prodCart.id) .then (prodBDD => {
-                prodBDD.stock -= prodCart.cantidad // descontar stock
+                prodBDD.Stock -= prodCart.cantidad // descontar stock
                 updateProduct(prodBDD.id,prodBDD) // mando el id del producto y el producto actualizad
             })
-        })
+             })
 
         createPurchaseOrder(cliente,aux, totalPrice(),new Date().toISOString()).then(PurchaseOrder => {
             toast.success(`compra finalizada su orden de compra con el ID:${PurchaseOrder.id} fue realizada con exito por un total de $ ${new Intl.NumberFormat('de-De').format(totalPrice())}`)
         })
-
-
         e.target.reset() // reseteo el formulario
         emptyCart() // vacio el carrito
         navigate("/")} else{
+            console.log(`hola ${cliente.email}`)
+            console.log(`hola 2 ${cliente.repeatEmail}`)
             toast.error("los emails no coinciden")
-        }
+         }
         }
 
     return (
@@ -72,7 +71,7 @@ export const Checkout = () => {
                     </div>
                     <div>
                         <label htmlFor='repeatEmail' className='form-label'>Reingresa el Correo electronico</label>
-                        <input type="email" className='form-control' name="repeatEmail'" id="" required />
+                        <input type="email" className='form-control' name="repeatEmail" id="" required />
                     </div>
                     <div>
                         <label htmlFor='dni' className='form-label'>Documento</label>

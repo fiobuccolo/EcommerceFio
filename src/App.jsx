@@ -26,7 +26,7 @@ import { CartProvider } from './Context/CartContext';
 function App() {
   // Cuando quiera cargar los productos en la base de datos de firebase tengo que descomentar la linea de abajo. 
   //CargarBDD()
-  // getProducts()
+  getProducts()
   getCategories()
   return (
     <BrowserRouter>

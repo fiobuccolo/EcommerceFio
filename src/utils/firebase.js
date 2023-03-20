@@ -40,18 +40,18 @@ const db = getFirestore() // referencia a mi base de datos
 
 export const getCategories = async () =>{
     const categories = await getDocs(collection(db,"Categorias"))
-    console.log (categories)
+    // console.log (categories)
     // transformar en objetos simples
     const category = categories.docs.map(cat =>{
         return {...cat.data(),id:cat.id }
      })
-    console.log (category)
+    // console.log (category)
     return (category)
 }
 
 
 export const getProducts = async () =>{
-    const products = await getDocs(collection(db,"products"))
+    const products = await getDocs(collection(db,"Products"))
     console.log (products)
    // transformar en objetos simples
     const items = products.docs.map(prod =>{
@@ -59,20 +59,20 @@ export const getProducts = async () =>{
     })
     console.log (items)
     return (items)
-}
+}   
 
 export const getProduct = async (id) =>{
-    const product = await getDoc(doc(db,"products",id))
+    const product = await getDoc(doc(db,"Products",id))
     console.log (product)
    // transformar en objetos simples
-    const item =  {...product.data(),id:product.id }
-    console.log (item)
-    return item
+    const prod =  {...product.data(),id:product.id }
+    console.log (prod)
+    return prod
     }
  
 //info información a actualizar
 export const updateProduct =  async(id,info) => {
-    await updateDoc(doc(db,"products",id),info)
+    await updateDoc(doc(db,"Products",id),info)
 }
 
 export const deleteProduct = async (id) =>{

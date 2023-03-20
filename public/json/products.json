@@ -1,19 +1,19 @@
 [
     {
         "id":1,
-        "idCategoria":1,
-        "Categoria":"Jamones y paletas Ibéricos",
+        "idCategoria":"StVPQNJZw9yYA5eutYng",
+        "Categoria":"Jamones",
         "idSubCategoria":1,
         "nombreSubCategoria":"Iberico de Bellota",
-        "nombre": "Paleta de bellota ibérica 100% ",
-        "marca": "Lazo",
+        "nombre": "Jamón de Bellota 100% Ibérico",
+        "marca": "",
         "zona": "",
-        "cantidad": "4,5-5 kg/pieza",
-        "precio": 168.75,
+        "cantidad": "7-7,5/Kg. kg/pieza",
+        "precio": 555.00,
         "stock":30,
         "uva":"",
         "img": "paleta-de-bellota-iberica-100-lazo.jpeg",
-        "descripcion": "La paleta de bellota ibérica se trata del producto de mayor calidad en su especie, el único que puede añadir a su nombre la denominación “pata negra”. Una pieza seleccionada exclusivamente por su calidad y pureza. Una pieza única y de gran calidad que se obtiene de la pata delantera de animales de raza ibérica, únicos en el mundo, criados en la dehesa. Alimentados exclusivamente de bellota, hierba y otros recursos naturales. Un producto excepcional.",
+        "descripcion": "Jamón de Bellota 100% Ibérico. Este es nuestro auténtico PATA NEGRA, un jamón de calidad excepcional procedente de Cerdos de raza 100% ibérica alimentados a base de bellotas durante la montanera. Han sido curados durante más de 24 meses. De forma alimonada y etiquetado bajo la «Nueva norma del jamón Ibérico» (R. D. 4/2014 del 10 de Enero de 2014). Ha sido seleccionado por los expertos de Dompal para satisfacer los más exigentes paladares.El cerdo 100% ibérico de bellota es un ejemplar cuyo progenitores son ibéricos puros (100% ibéricos). Estos cerdos han sido criados en libertad y alimentados en la montanera a base de bellotas y hierbas.De color rosa la rojo púrpura, de aspecto veteado y consistente al corte. Su carne es de sabor delicado con una grasa interior muy aromática y fluida, fundiendo en boca inundando el paladar con un incomparable sabor lleno de matices, intenso y prolongado.",
         "NotasDeCata": ""
     },
     {
