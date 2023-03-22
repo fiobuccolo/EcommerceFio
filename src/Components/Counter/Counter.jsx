@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react'; 
+import {AiOutlinePlusCircle, AiOutlineMinusCircle} from 'react-icons/ai';
 /* 
 The useState Hook can be used to keep track of strings,
 numbers, booleans, arrays, objects, and any combination of these!
@@ -18,10 +19,14 @@ export const Counter = ({valInicial,stock,onAdd}) => {
 
     return (    
         <div className='counter'>
-            <button className=' cardAdd' onClick={()=>restar()}>-</button> 
-            {contador}
-            <button className='cardAdd' onClick={()=>sumar()}>+</button>
-            <button onClick={()=>{onAdd(contador)}}>Agregar al carrito2</button>
+                
+                <button className='cardAdd' onClick={()=>restar()}><AiOutlineMinusCircle/></button> 
+                {contador}
+                <button className='cardAdd' onClick={()=>sumar()}><AiOutlinePlusCircle/></button>
+            
+       
+            <button className='btn btn-add' onClick={()=>{onAdd(contador)}}>Agregar al carrito</button>
+            
         </div>
     );
 }

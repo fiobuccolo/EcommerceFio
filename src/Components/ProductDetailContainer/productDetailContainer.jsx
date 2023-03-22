@@ -24,7 +24,7 @@ export const ProductDetailContainer = () => {
     }, []);
     
     return (
-        <div className='card mb-3 container productDetail'>
+        <div className='card mb-3 container page-mgn'>
             <ProductDetail prod={product}/>
         </div>
     );

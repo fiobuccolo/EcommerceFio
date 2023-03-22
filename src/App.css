@@ -162,7 +162,7 @@ line-height: 150%;
   padding: 0px 0px 16px;
   gap: 16px;
   width: 20rem;
-  height: 30rem;
+  /* height: 30rem; */
   margin:4px;
   background-color: hsl(0,0,97);
   /* position: absolute; */
@@ -170,15 +170,15 @@ line-height: 150%;
   box-shadow: 0px 1px 2px rgba(51, 65, 86, 0.08);
   border-radius: 12px;
 }
-/* .cardBody{
-  background-color: white;
-  margin-bottom: 2px;
-  text-align: center;
-} */
+
+
+.productCard:hover {
+    transform: scale(1.1) rotate(0deg);
+  }
+
 
 .cardImg{
   margin-top: 2px;
-  
   padding: 4px;
   flex: none;
   order: 0;
@@ -242,16 +242,25 @@ letter-spacing: -0.8px;
 color: #1E293B;
 }
 .cardAdd{
-  width: 16px;
-  height: 20px;
-  background: #BFBFBF;
+
+  font-size: 24px;
+color: gray;
+cursor: pointer;
+position: relative;
+transition: transform .4s ease;
+border: none;
+background-color: transparent;
+  /* width: 24px;
+  height: 24px;
+  font-size: 25px;
+  background: #FFFFFF;
   color: black;
   text-align: center;
-  border: 1px solid #BFBFBF;
+  border: 1px solid #FFFFFF;
   border-radius: 16px;
   font-size: 14px;
   margin: 2px;
-  line-height:0%
+  line-height:0% */
 }
 .cardButtons{
   padding: 0px 16px;
@@ -260,6 +269,23 @@ flex-direction: row;
 align-items: center;
 /* gap: 32px; */
 }
+.cardCounter{
+  display:block;
+}
+
+.btn-add{
+  font-family: 'Noto Sans';
+  border: 1px solid #ADB5BD;
+  border-radius: 6px;
+  background: #FFFFFF;
+  
+}
+.btn-add:hover{
+  color: #b96729;
+  font-family: 'Noto Sans';
+  border: 1px solid #b96729;
+}
+
 .counter{
   display: flex;
   flex-direction: row;
@@ -269,7 +295,7 @@ align-items: center;
   margin-bottom: 4px;
 }
 .productDetail{
-  margin-top: 64px;
+  /* margin-top: 64px; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -296,4 +322,66 @@ align-items: center;
 
 .cardCart{
  max-width: 640px;
+}
+
+
+.prod-detail{
+  margin-top: 60px;
+}
+.page-mgn{
+  margin-top: 140px;
+}
+.card-title{
+  font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 137%;
+/* or 41px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.8px;
+
+/* Dark */
+
+color: #1E293B;
+}
+.card-description{
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+display: flex;
+align-items: center;
+
+/* Secondary */
+
+color: #64748B;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.card-price{
+  font-size: 24px;
+}
+
+.btn-third{
+  font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+line-height: 150%;
+color: #1E293B;
+padding: 0px;
 }
