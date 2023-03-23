@@ -5,7 +5,7 @@ export const Header = () => {
         
              <header className='nav-header'>
              <div className='header'>
-                    <h2 className='h2-header'>Descubre los descuentos especiales</h2>
+                    <h2 className='h2-header'>Especialistas en la venta de jamones y embutidos ibéricos</h2>
                     <button className='btn-header'>Saber mas</button>
                 </div>
             </header>
